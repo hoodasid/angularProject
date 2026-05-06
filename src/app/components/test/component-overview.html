@@ -1,0 +1,6 @@
+<h1>{{ title }}</h1>
+<div> 
+    <h3>Below is Greetings Component</h3>
+    <app-greetings [message]="message()" [message2]="'This is 2nd message'" [message3]="'this is the 3rd message'" />
+    <input type="text" (keyup)="KeyUpHandler($event)" placeholder="Type something and check console for keyup event"/>
+</div>
